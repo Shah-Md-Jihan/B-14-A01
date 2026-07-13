@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body, p, button{
@@ -11,6 +12,8 @@ body, p, button{
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 h1, h2, h3 {
     font-family: "Inter", sans-serif;
@@ -23,6 +26,7 @@ h1, h2, h3 {
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 50px;
+    box-sizing: border-box;
 }
 
 .nav-container {
@@ -100,3 +104,47 @@ h1, h2, h3 {
     margin-top: 200px;
     margin-bottom: 80px;
 }
+
+.section-spacing-top{
+    margin-top: 80px;
+}
+
+.section-title {
+    font-size: 56px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tech{
+    font-size: 18px;
+    color: #2563EB;
+    padding-top: 20px;
+}
+
+.speaker-name {
+    font-size: 28px;
+    color: #000;
+    padding: 8px 0;
+}
+
+.speaker-designation{
+    font-size: 14px;
+    color: #000;
+}
+
+.speaker-section-container {
+    margin-top: 56px;
+}
+
+.speaker-section-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
