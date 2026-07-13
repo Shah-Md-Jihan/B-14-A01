@@ -1,0 +1,1 @@
+I'm designing a developer conference landing page. The page already includes a Hero section, Speakers section, and Pricing section. I have one empty section labeled "Something Missing?". Based on the current layout and user journey, what section would be the most relevant to add next? Please suggest only one section.
