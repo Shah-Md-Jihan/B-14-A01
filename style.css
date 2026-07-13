@@ -58,3 +58,45 @@ h1, h2, h3 {
     font-size: 16px;
     font-weight: 400;
 }
+
+
+.hero-section {
+
+    background: linear-gradient(
+  to right,
+  rgba(0,0,0,0.9),
+  rgba(0,0,0,0)
+),
+    url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 60px;
+    color: #fff;
+    padding-top: 136px;
+    padding-bottom: 20px;
+}
+
+.hero-descriptions {
+    font-size: 22px;
+    color: #fff;
+    width: 60%;
+}
+
+.hero-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hero-btn {
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
